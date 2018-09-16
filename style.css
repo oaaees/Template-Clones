@@ -1,0 +1,177 @@
+body {
+  background: url(imgs/page_g.jpg), #6D5956;
+  background-repeat: repeat-x;
+  font-family: Arial, Helvetica, Sans-Serif;
+  font-size: 0.75em;
+}
+body h1 a {
+  color: #715A56;
+  text-decoration: none;
+}
+body h1 a:hover, body h1 a.hovered {
+  color: #2B571E;
+  text-decoration: underline;
+}
+body a {
+  color: #715A56;
+}
+body a:hover, body a.hovered {
+  color: #2B571E;
+  text-decoration: none;
+}
+body button {
+  background-color: #589943;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 15px;
+}
+body button:hover {
+  background-color: #FFA50A;
+  color: black;
+}
+body div.container {
+  border-radius: 10px;
+  margin: 75px auto;
+  width: 872px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+body div.container header {
+  background: url(imgs/header.jpg), green;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  font-size: 1.75em;
+  height: 280px;
+}
+body div.container header div.text {
+  color: white;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  left: 10px;
+  transform: perspective(1px) translateY(-50%);
+}
+body div.container header div.text h1 {
+  font-family: "Times New Roman", Georgia, Times, Serif;
+  font-size: 2.5em;
+  margin-bottom: 5px;
+  padding: 0;
+}
+body div.container header div.text h3 {
+  margin: 0;
+  padding: 0;
+}
+body div.container div.nav {
+  background: url(imgs/nav.png);
+  background-repeat: no-repeat;
+  color: white;
+  height: 38px;
+}
+body div.container div.main {
+  display: flex;
+}
+body div.container div.main div.inner1 {
+  background-color: #FEF2DD;
+  flex-basis: 70%;
+  padding: 15px;
+}
+body div.container div.main div.inner1 h1.title {
+  background-color: #FFDCA9;
+  border: dashed 1px orange;
+  color: #214432;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 5px 0;
+}
+body div.container div.main div.inner1 div.section {
+  display: flex;
+}
+body div.container div.main div.inner1 div.section h3 {
+  color: #472D00;
+  font-weight: lighter;
+}
+body div.container div.main div.inner1 div.section img {
+  position: relative;
+  left: 50%;
+  transform: perspective(1px) translateX(-100%);
+}
+body div.container div.main div.inner1 div.headings {
+  color: #3B792A;
+  font-family: "Times New Roman", Georgia, Times, Serif;
+  font-weight: lighter;
+  font-size: 1.25em;
+}
+body div.container div.main div.inner1 div.headings * {
+  margin: 30px 0;
+}
+body div.container div.main div.inner1 blockquote {
+  background: url(imgs/postquote.png), #E5F4E1;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding: 1px 35px;
+}
+body div.container div.main div.inner1 table {
+  margin: 0 0 10px 0;
+}
+body div.container div.main div.inner1 table tbody tr th {
+  padding: 7px 5px !important;
+}
+body div.container div.main div.inner1 table tbody tr th, body div.container div.main div.inner1 table tbody tr td {
+  border-left: solid 1px grey;
+  border-top: solid 1px grey;
+  padding: 2px;
+}
+body div.container div.main div.inner1 table tbody tr th:last-of-type, body div.container div.main div.inner1 table tbody tr td:last-of-type {
+  border-right: solid 1px grey;
+}
+body div.container div.main div.inner1 table tbody tr td.bottom {
+  border-bottom: solid 1px grey;
+}
+body div.container div.main div.inner2 {
+  background-color: #FFD8A6;
+  flex-basis: 30%;
+  padding: 10px;
+}
+body div.container div.main div.inner2 input {
+  display: block;
+  margin-bottom: 5px;
+}
+body div.container div.main div.inner2 strong {
+  display: inline-block;
+}
+body div.container div.main div.inner2 img {
+  max-width: 15vw;
+}
+body div.container footer {
+  background: url(imgs/footer.png);
+  background-position: left bottom;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 0.75em;
+  height: 75px;
+  text-align: center;
+}
+body div.container footer div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body div.container footer div ul {
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+body div.container footer div ul li {
+  border-right: solid 1px black;
+  display: inline;
+  margin: 0;
+  padding: 0 5px;
+}
+body div.container footer div ul li:last-of-type {
+  border: none;
+  padding: 0 0 0 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
