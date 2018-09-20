@@ -1,0 +1,230 @@
+body {
+  background: #DDDDEE;
+  font-family: verdana;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
+}
+body header div.main {
+  align-items: center;
+  background: #9999CC;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+}
+body header div.main div.links {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 60px;
+}
+body header div.main div.links a.logo img {
+  height: 40px;
+  width: 40px;
+}
+body header div.main div.links ul {
+  display: inline;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+body header div.main div.links ul li {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+}
+body header div.main div.links ul li:hover {
+  background: #5252BE;
+}
+body header div.main div.links ul li:last-of-type {
+  margin-right: 0;
+}
+body header div.main div.links ul li a {
+  color: white;
+  font-family: helvetica;
+  font-size: 1.1em;
+  font-weight: bolder;
+  text-decoration: none;
+}
+body header div.main div.search {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 60px;
+}
+body header div.main div.search input {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  height: 30px;
+  width: 200px;
+}
+body header div.main div.search button {
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  height: 36px;
+  background: #7777CC;
+  margin: 0;
+}
+body header div.main div.search button:hover {
+  background: #5252BE;
+}
+body header div.secondary {
+  background: #666699;
+  height: 30px;
+}
+body div.container {
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+body div.container div.maintext {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+}
+body div.container div.maintext h2 {
+  font-weight: 500;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 24px;
+}
+body div.container div.maintext div {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body div.container div.maintext div input {
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  height: 30px;
+  width: 350px;
+}
+body div.container div.maintext div button {
+  border: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  height: 34px;
+  background: #7777CC;
+  margin: 0;
+}
+body div.container div.maintext div button:hover {
+  background: #5252BE;
+}
+body div.container div.maintext p.ss {
+  color: gray;
+}
+body div.container div.hot {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+body div.container div.hot h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 24px;
+  flex-basis: 100%;
+  text-transform: uppercase;
+}
+body div.container div.hot div {
+  flex-basis: 25%;
+}
+body div.container div.hot div a {
+  text-decoration: none;
+}
+body div.container div.hot div a:hover {
+  text-decoration: underline;
+}
+body div.container div.hot div span::before {
+  content: '"';
+}
+body div.container div.hot div span::after {
+  content: '"';
+}
+body footer div.main {
+  align-items: center;
+  background: #9999CC;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+}
+body footer div.main ul {
+  display: inline;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+body footer div.main ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
+}
+body footer div.main ul li:last-of-type {
+  margin-right: 0;
+}
+body footer div.main ul li a {
+  color: white;
+  font-family: verdana;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+}
+body footer div.main ul li a:hover {
+  text-decoration: underline;
+}
+body footer div.secondary {
+  background: #666699;
+  height: 30px;
+}
+body footer div.last {
+  margin: 0 200px;
+  text-align: center;
+}
+body footer div.last ul {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 200px 0 200px;
+}
+body footer div.last ul li {
+  display: inline;
+  list-style: none;
+}
+body footer div.last ul li a {
+  text-decoration: none;
+}
+body footer div.last ul li a:hover {
+  text-decoration: underline;
+}
+body footer div.last p {
+  font-size: 11px;
+  line-height: 16px;
+}
