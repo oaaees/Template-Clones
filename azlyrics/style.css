@@ -221,19 +221,19 @@ body footer div.last p {
 }
 
 /* ADVERTISE HERE TEMPLATE STYLE */
-body div.adv-container {
+body div.page-container {
   display: block !important;
   margin: 40px auto;
   text-align: center;
   width: 60%;
 }
-body div.adv-container table.adv-table {
+body div.page-container table.page-table {
   border: 1px #CBEBF4 solid !important;
   border-radius: 10px;
   margin: 20px 0;
   width: 100%;
 }
-body div.adv-container table.adv-table th {
+body div.page-container table.page-table th {
   background: #D9EDF7;
   border: 1px #CBEBF4 solid;
   color: #31708f;
@@ -243,19 +243,19 @@ body div.adv-container table.adv-table th {
   padding: 25px;
   text-align: center;
 }
-body div.adv-container table.adv-table td {
+body div.page-container table.page-table td {
   background: #EEEEFF;
   border-bottom: 1px lightgray solid;
   padding: 5px;
 }
-body div.adv-container table.adv-table td.title {
+body div.page-container table.page-table td.title {
   background: #FCF8E3;
   font-weight: bolder;
 }
-body div.adv-container table.adv-table tr:last-of-type td {
+body div.page-container table.page-table tr:last-of-type td {
   border-bottom: none;
 }
-body div.adv-container div.adv-div {
+body div.page-container div.adv-div {
   background: #EEEEFF;
   border: 1px #CBEBF4 solid !important;
   border-radius: 10px;
