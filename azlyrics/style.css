@@ -222,6 +222,7 @@ body footer div.last p {
 
 /* ADVERTISE HERE TEMPLATE STYLE */
 body div.adv-container {
+  display: block !important;
   margin: 40px auto;
   text-align: center;
   width: 60%;
