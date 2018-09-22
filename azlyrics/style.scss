@@ -7,6 +7,14 @@ body {
 	margin:0;
 	padding: 0;
 
+		a {
+			text-decoration: none;
+
+			&:hover {
+				text-decoration:underline;
+			}
+		}
+
 	header {
 		div.main {
 			align-items: center;
@@ -36,7 +44,6 @@ body {
 					li {
 						display: inline;
 						list-style: none;
-						padding: 5px;
 
 						&:hover {
 							background: #5252BE;
@@ -52,6 +59,8 @@ body {
 							font-size: 1.1em;
 							font-weight: bolder;
 							text-decoration: none;
+							padding: 5px;
+
 						}
 					}
 				}
@@ -62,6 +71,7 @@ body {
 				align-items: center;
 				margin-right: 60px;
 				input {
+					border: none;
 					border-top-left-radius: 7px;
 					border-bottom-left-radius: 7px;
 					height: 30px;
@@ -166,14 +176,6 @@ body {
 			div {
 				flex-basis: 25%;
 
-				a{
-					text-decoration: none;
-
-					&:hover {
-						text-decoration: underline;
-					}
-				}
-
 				span {
 					&::before {
 						content:'"';
@@ -219,11 +221,6 @@ body {
 						font-weight: 400;
 						font-size: 15px;
 						line-height: 20px;
-						text-decoration: none;
-
-						&:hover {
-							text-decoration:underline;
-						}
 					}
 				}
 			}
@@ -249,14 +246,6 @@ body {
 				li {
 					display: inline;
 					list-style: none;
-
-					a {
-						text-decoration: none;
-
-						&:hover {
-							text-decoration:underline;
-						}
-					}
 				}
 			}
 
@@ -267,3 +256,72 @@ body {
 		}
 	}
 }
+
+
+/* ADVERTISE HERE TEMPLATE STYLE */
+
+body {
+	div.adv-container {
+		margin: 40px auto;
+		text-align: center;
+		width: 60%;
+
+		table.adv-table {
+			border: 1px #CBEBF4 solid !important;
+			border-radius: 10px;
+			margin: 20px 0;
+			width: 100%;
+
+			th {
+				background: #D9EDF7;
+				border: 1px #CBEBF4 solid;
+				color: #31708f;
+				font-weight: 500;
+				font-size: 18px;
+				line-height: 20px;
+				padding: 25px;
+				text-align: center;
+			}
+
+			td {
+				background: #EEEEFF;
+				border-bottom: 1px lightgray solid;
+				padding: 5px;
+			}
+
+			td.title {
+				background: #FCF8E3;
+				font-weight: bolder;
+			}
+
+			tr {
+				&:last-of-type {
+					td {
+						border-bottom:none;
+					}
+				}
+			}
+		}
+
+		div.adv-div {
+			background: #EEEEFF;
+			border: 1px #CBEBF4 solid !important;
+			border-radius: 10px;
+			margin: 20px 0;
+			width: 100%;
+		}
+
+	}
+}
+
+/*  PRIVACY TEMPLATE STYLE */
+
+body {
+	div.privacy-container {
+		p {
+			margin: 20px;
+		}
+
+	}
+}
+
