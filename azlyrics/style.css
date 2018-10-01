@@ -33,31 +33,46 @@ body header div.main div.links a.logo img {
   height: 40px;
   width: 40px;
 }
-body header div.main div.links ul {
-  display: inline;
-  margin: 0 0 0 20px;
-  padding: 0;
+@media only screen and (min-width: 910px) {
+  body header div.main div.links ul {
+    display: inline;
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+  body header div.main div.links ul li {
+    display: inline;
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+  }
+  body header div.main div.links ul li:hover {
+    background: #5252BE;
+  }
+  body header div.main div.links ul li:last-of-type {
+    margin-right: 0;
+  }
+  body header div.main div.links ul li a {
+    color: white;
+    font-family: helvetica;
+    font-size: 1.1em;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0;
+  }
 }
-body header div.main div.links ul li {
-  display: inline;
-  list-style: none;
-  padding: 0px;
-  margin: 0;
+@media only screen and (min-width: 910px) and (max-width: 1130px) {
+  body header div.main div.links ul li {
+    /* For mobile phones: */
+  }
+  body header div.main div.links ul li a {
+    padding: 1px;
+  }
 }
-body header div.main div.links ul li:hover {
-  background: #5252BE;
-}
-body header div.main div.links ul li:last-of-type {
-  margin-right: 0;
-}
-body header div.main div.links ul li a {
-  color: white;
-  font-family: helvetica;
-  font-size: 1.1em;
-  font-weight: bolder;
-  text-decoration: none;
-  padding: 5px;
-  margin: 0;
+@media only screen and (max-width: 909px) {
+  body header div.main div.links ul {
+    display: none;
+  }
 }
 body header div.main div.search {
   display: inline-flex;
@@ -157,8 +172,15 @@ body div.container div.hot h2 {
   flex-basis: 100%;
   text-transform: uppercase;
 }
-body div.container div.hot div {
-  flex-basis: 25%;
+@media only screen and (max-width: 909px) {
+  body div.container div.hot div {
+    flex-basis: 50%;
+  }
+}
+@media only screen and (min-width: 910px) {
+  body div.container div.hot div {
+    flex-basis: 25%;
+  }
 }
 body div.container div.hot div span::before {
   content: '"';
@@ -202,7 +224,7 @@ body footer div.secondary {
   height: 30px;
 }
 body footer div.last {
-  margin: 0 200px;
+  margin: 0 20%;
   text-align: center;
 }
 body footer div.last ul {
@@ -212,7 +234,8 @@ body footer div.last ul {
   display: -o-flex;
   display: flex;
   justify-content: space-around;
-  margin: 20px 200px 0 200px;
+  margin-top: 20px;
+  padding: 0;
 }
 body footer div.last ul li {
   display: inline;

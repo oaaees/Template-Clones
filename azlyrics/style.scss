@@ -37,34 +37,49 @@ body {
 					width: 40px;}
 				}
 
-				ul {
-					display: inline;
-					margin: 0 0 0 20px;
-					padding: 0;
-					li {
+				@media only screen and (min-width: 910px) {
+					
+					ul {
 						display: inline;
-						list-style: none;
-						padding:0px;
-						margin:0;
-
-						&:hover {
-							background: #5252BE;
-						}
-
-						&:last-of-type {
-							margin-right:0;
-						}
-
-						a {
-							color: white;
-							font-family: helvetica;
-							font-size: 1.1em;
-							font-weight: bolder;
-							text-decoration: none;
-							padding: 5px;
+						margin: 0 0 0 20px;
+						padding: 0;
+						li {
+							display: inline;
+							list-style: none;
+							padding:0px;
 							margin:0;
 
+							&:hover {
+								background: #5252BE;
+							}
+
+							&:last-of-type {
+								margin-right:0;
+							}
+
+							a {
+								color: white;
+								font-family: helvetica;
+								font-size: 1.1em;
+								font-weight: bolder;
+								text-decoration: none;
+								padding: 5px;
+								margin:0;
+
+							}
+						@media only screen and (max-width: 1130px) {
+				    		/* For mobile phones: */
+							    a {
+						        	padding:1px;
+	  			 				 }
+							}
 						}
+					} 
+				}
+
+				@media only screen and (max-width:909px) {
+					ul {
+						display: none;
 					}
 				}
 			}
@@ -159,6 +174,7 @@ body {
 
 			p.ss { color: gray }
 		}
+
 		div.hot{ 
 			display: -webkit-flex;
 			display: -moz-flex;
@@ -176,9 +192,19 @@ body {
 				text-transform: uppercase;
 			}
 
-			div {
-				flex-basis: 25%;
+			@media only screen and (max-width:909px) {
+				div {
+					flex-basis:50%;
+				}
+			}
 
+			@media only screen and (min-width:910px) {
+				div {
+					flex-basis:25%;
+				}
+			}
+
+			div {
 				span {
 					&::before {
 						content:'"';
@@ -235,7 +261,7 @@ body {
 		}
 
 		div.last {
-			margin: 0 200px;
+			margin: 0 20%;
 			text-align: center;
 			ul {
 				display: -webkit-flex;
@@ -244,7 +270,8 @@ body {
 				display: -o-flex;
 				display: flex;
 				justify-content: space-around;
-				margin: 20px 200px 0 200px;
+				margin-top: 20px;
+				padding:0;
 
 				li {
 					display: inline;
